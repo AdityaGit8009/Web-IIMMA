@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Raspberry Pi Products
+        </title>
+        <link rel="stylesheet" href="./css/bootstrap.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+
+    <body id="backToTop">
+        <div class="container-fluid">
+            <div class="row p-0 mt-2 mb-2 top-header-bar">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 top-header mx-auto p-0">
+                    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+                    <a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact us</a>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 text-center top-header">
+                    <a href="track-your-order.html">Track Order</a>
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i> Shop</a>
+                    <a href="tel:8744000555"><i class="fa fa-phone"></i> +91-8744000555</a>
+                </div>
+                <div class="col-sm-1"></div>
+                <hr>
+                <div class="row mt-2 mb-2 logo-bar-icons d-flex align-items-center">
+                    <div class="col-4 col-sm-2 text-end logo-img">
+                        <a href="index.html">
+                            <img src="./images/robo-header.png" class="img-fluid header-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-4 col-sm-1 text-center offcanvas-btn">
+                        <button type="button" class="border-0 bg-white fs-4" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <div class="col-sm-5 top-header2 mt-3 mb-3 dropdown-menu2 menu-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="track-your-order.html">Track Your Records</a>
+                    </div>
+
+                    <div class="col-4 col-sm-3 mt-1 text-center user-icon3 user-icon-1">
+                        <i class="fa-regular fa-user fs-4 user-icon"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row align-items-center search-nav">
+
+                <!-- All Categories Button -->
+                <div class="col-sm-3 mx-auto">
+                    <div class="dropdown dropdown-menu2">
+                        <button class="btn w-100 d-flex justify-content-between align-items-center category-btn"
+                            data-bs-toggle="dropdown">
+                            <span class="fw-semibold text-center">All Categories <i
+                                    class="fa-solid fa-chevron-down"></i></span>
+
+                        </button>
+
+                        <ul class="dropdown-menu w-100 category-menu m-0">
+                            <li><a class="dropdown-item" href="electronic-components.html">Electronic Components</a>
+                            </li>
+                            <li><a class="dropdown-item" href="robotkit.html">DIY Learning and Robot Kits</a></li>
+                            <li><a class="dropdown-item" href="#">Drone Parts</a></li>
+                            <li><a class="dropdown-item" href="#">3D Printers and Parts Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Battery Chargers & Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Development Board</a></li>
+                            <li><a class="dropdown-item" href="#">Motor Driver Actuators</a></li>
+                            <li><a class="dropdown-item" href="#">Displays</a></li>
+                            <li><a class="dropdown-item" href="#">Sensors</a></li>
+                            <li><a class="dropdown-item" href="#">Electronic Module</a></li>
+                            <li><a class="dropdown-item" href="#">Wires & Cables</a></li>
+                            <li><a class="dropdown-item" href="#">Workbench Tools</a></li>
+                            <li><a class="dropdown-item" href="#">SMPS Power Supply</a></li>
+                            <li><a class="dropdown-item" href="#">Transformers</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="col-sm-6 mx-auto search-box2">
+                    <div class="input-group search-group">
+                        <span class="input-group-text search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control search-box" placeholder="Search for products...">
+                    </div>
+                </div>
+
+                <!-- User Icon -->
+                <div class="col-sm-2 text-center user-icon2">
+                    <i class="fa-regular fa-user fs-4 user-icon"></i>
+                </div>
+
+            </div>
+
+
+            <div class="row mb-5 font-about">
+                <div class="col-sm-12">
+                    <div class="row mt-4 home-about py-2">
+                        <div class="col-sm-12 d-flex breadcrumb1 text-dark">
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-chevron-down ms-3 me-3 about-chav"></i>
+                            Electronic Components
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-3 robokit-left-none">
+
+                            <div class="row">
+                                <div class="col-sm-10 mx-auto">
+                                    <div class="accordion border border-secondary rounded-1" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Show All Categories
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <hr>
+                                                    <ul class="fs-3">
+                                                        <li class="mt-0 mb-1"><a class="dropdown-item" href="#">DIY
+                                                                Learning and Robot
+                                                                Kits</a></li>
+                                                        <hr>
+                                                        <li class="mt-0 mb-1"><a class="dropdown-item" href="#">Drone
+                                                                Parts</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">3D
+                                                                Printers and Parts
+                                                                Categories</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Battery
+                                                                Chargers &
+                                                                Accessories</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Development
+                                                                Board</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Motor
+                                                                Driver Actuators</a>
+                                                        </li>
+                                                        <hr>
+                                                        <li class="mt-2 mb-2"><a class="dropdown-item"
+                                                                href="#">Displays</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Sensors</a>
+                                                        </li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Electronic
+                                                                Module</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Wires &
+                                                                Cables</a></li>
+                                                        <hr>
+                                                        <li class="mb-2"><a class="dropdown-item" href="#">Workbench
+                                                                Tools</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <li class="mt-2 ms-3 mb-2 list-unstyled"><a
+                                                class="text-dark text-decoration-none"
+                                                href="electronic-components.html"><b>Electronic
+                                                    Components</b></a></li>
+                                        <ul class="p-2">
+                                            <hr>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Bread Board and Zero PCB</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Capacitor</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Crystal Oscillator</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Diodes</a>
+                                            </li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Electronic Switches Button and
+                                                    Keypads</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Fuse and Holder</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Heat Sink</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">IGBT</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Inductor</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">LEDs and Indicators</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Magnets</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Microcontroller Ics</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">MOSFETs</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Potentiometer</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Resistor</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">SCR / Thyristor</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Solenoids and Electromagnets</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Transistor</a></li>
+                                            <li class="mt-2 ms-3 mb-2"><a href="#">Triac</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-11 ms-5 mt-5">
+                                    <h5 class="heading7">Latest Product</h5>
+                                    <hr class="mb-0 mt-0">
+                                    <!-- Product 1 -->
+                                    <div class="row align-items-center mt-3 product-box">
+                                        <div class="col-sm-4">
+                                            <img src="./images/RM018309-300x300.png.webp" class="product-img img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <p class="mb-1 small fw-semibold">
+                                                XT30 Plug Connector Male And Female Pair
+                                            </p>
+                                            <p class="text-muted small mb-0"><del>₹85.00</del></p>
+                                            <p class="text-success fw-bold small mb-0 fs-6">
+                                                ₹59.00 <span class="text-muted small">(Incl. GST)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Product 2 -->
+                                    <div class="row align-items-center mt-3 product-box">
+                                        <div class="col-sm-4">
+                                            <img src="./images/RM018308-300x300.jpg.webp" class="product-img img-fluid"
+                                                alt="">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <p class="mb-1 small fw-semibold">
+                                                Yellow AC220V MDX-11A Indicator Light
+                                            </p>
+                                            <p class="text-muted small mb-0"><del>₹35.00</del></p>
+                                            <p class="text-success fw-bold small mb-0 fs-6">
+                                                ₹25.00 <span class="text-muted small">(Incl. GST)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Product 3 -->
+                                    <div class="row align-items-center mt-3 product-box">
+                                        <div class="col-sm-4">
+                                            <img src="./images/RM018307-1-300x300.jpg.webp"
+                                                class="product-img img-fluid" alt="">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <p class="mb-1 small fw-semibold">
+                                                Green AC220V MDX-11A Indicator Light
+                                            </p>
+                                            <p class="text-muted small mb-0"><del>₹35.00</del></p>
+                                            <p class="text-success fw-bold small mb-0 fs-6">
+                                                ₹25.00 <span class="text-muted small">(Incl. GST)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Product 4 -->
+                                    <div class="row align-items-center mt-3 product-box">
+                                        <div class="col-sm-4">
+                                            <img src="./images/RM018306.1-1-300x300.jpg.webp"
+                                                class="product-img img-fluid" alt="">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <p class="mb-1 small fw-semibold">
+                                                ESP32 WiFi + Bluetooth Module
+                                            </p>
+                                            <p class="text-muted small mb-0"><del>₹399.00</del></p>
+                                            <p class="text-success fw-bold small mb-0 fs-6">
+                                                ₹365.00 <span class="text-muted small">(Incl. GST)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Product 4 -->
+                                    <div class="row align-items-center mt-3 product-box">
+                                        <div class="col-sm-4">
+                                            <img src="./images/ElectronicImg/RM018305.png.webp"
+                                                class="product-img img-fluid" alt="">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <p class="mb-1 small fw-semibold">
+                                                ESP32 WiFi + Bluetooth Module
+                                            </p>
+                                            <p class="text-muted small mb-0"><del>₹399.00</del></p>
+                                            <p class="text-success fw-bold small mb-0 fs-6">
+                                                ₹365.00 <span class="text-muted small">(Incl. GST)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h3 class="heading9 fw-400 h4">Electronic Components Categories</h3>
+                            <hr>
+
+                            <div class="row g-3">
+                                <!-- Item 1 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/bread-board-zero-pcb.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Bread Board & Zero PCB</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Capacitor.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Capacitor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/crystal-oscillator.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Crystal Oscillator</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 4 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/diode-1.jpg" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Diodes</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 5 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/electronic-switch.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold text-break">Switches & Keypads</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 6 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/fuse-holder.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Fuse & Holder</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 7 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/heat-sink.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Heat Sink</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 8 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/igbt.jpg" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">IGBT</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 9 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Inductor.png" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Inductor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 10 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/LEDs-and-Indicators.png"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">LEDs & Indicators</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item 1 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/bread-board-zero-pcb.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Bread Board & Zero PCB</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Capacitor.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Capacitor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/crystal-oscillator.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Crystal Oscillator</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 4 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/diode-1.jpg" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Diodes</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 5 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/electronic-switch.jpg"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold text-break">Switches & Keypads</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 6 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/fuse-holder.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Fuse & Holder</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 7 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/heat-sink.jpg" class="img-fluid p-2"
+                                                alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Heat Sink</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 8 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/igbt.jpg" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">IGBT</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 9 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Inductor.png" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Inductor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 10 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/LEDs-and-Indicators.png"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">LEDs & Indicators</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item 9 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Inductor.png" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Inductor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Item 10 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/LEDs-and-Indicators.png"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">LEDs & Indicators</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item 9 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/Inductor.png" class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">Inductor</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item 10 -->
+                                <div class="col-6 col-sm-2 E-Compo">
+                                    <a href="#">
+                                        <div class="card text-center h-100">
+                                            <img src="./images/ElectronicImg/LEDs-and-Indicators.png"
+                                                class="img-fluid p-2" alt="">
+                                            <div class="card-body p-1">
+                                                <p class="small fw-semibold">LEDs & Indicators</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row back">
+                <div class="col-sm-12 p-5">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="footer-logo">
+                                <img src="./images/robo-header.png" alt="Robomart" />
+                            </div>
+                            <div>
+                                <div class="d-flex mt-3">
+                                    <div>
+                                        <i class="fa-solid fa-headphones display-3 text-warning"></i>
+                                    </div>
+                                    <div>
+                                        <span class="media-text">Got Questions ? Call us between 10:00 AM to 5:00 PM
+                                            Monday-Saturday</span><br>
+                                        <span class="media-text2">(+91)-8744000555</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <div class="footer-address">
+                                <strong class="footer-address-title">Contact Info</strong>
+                                <address>C-65 Third Floor Sector-10 Noida, Uttar Pradesh India Pin-201301</address>
+                            </div>
+
+                            <div class="footer-social-icons">
+                                <ul class="social-icons list-unstyled nav align-items-center">
+                                    <li><a class="fab fa-facebook" target="_blank" href="#"></a>
+                                    </li>
+                                    <li><a class="fab fa-x-twitter" target="_blank" href="#"></a></li>
+                                    <li><a class="fab fa-whatsapp mobile" target="_blank"
+                                            href="whatsapp://send?phone=918744000555"></a>
+                                    </li>
+                                    <li><a class="fab fa-pinterest" target="_blank" href="#"></a>
+                                    </li>
+                                    <li><a class="fab fa-linkedin" target="_blank" href="#"></a></li>
+                                    <li><a class="fab fa-instagram" target="_blank" href="#"></a>
+                                    </li>
+                                    <li><a class="fab fa-youtube" target="_blank" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="row">
+                                <div class="columns col-sm-3">
+                                    <aside>
+                                        <div>
+                                            <h4 class="h6">Information</h4>
+                                            <div class="m-0">
+                                                <ul>
+                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="#">Contact us</a></li>
+                                                    <li><a href="#">Sitemap</a></li>
+                                                    <li><a href="#">Payment</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div class="columns col-sm-3">
+                                    <aside>
+                                        <div class="body">
+                                            <h4 class="widget-title h6">Account</h4>
+                                            <div>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">My Account</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Track your Order</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Customer Service</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div class="col-sm-5 mx-auto">
+                                    <aside>
+                                        <div>
+                                            <h4 class="h6">Polices</h4>
+                                            <div>
+                                                <ul>
+                                                    <li><a rel="" href="#">Privacy &amp; Security Policy</a></li>
+                                                    <li><a href="#">Cancellation &amp; Return/Refund Policy</a></li>
+                                                    <li><a href="#">Shipping Policy</a></li>
+                                                    <li><a href="#">Shipping Policy</a></li>
+                                                    <li><a href="#">FAQs</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="back2">
+                    <div class="container">
+                        <div class="float-start mt-2">&copy; <a href="/">Robomart</a> - All Rights Reserved</div>
+                        <div class="float-end payment">
+                            <div class="footer-payment-logo">
+                                <ul class="nav cash-card card-inline">
+                                    <li class="card-item"><img class="h-auto entered lazyloaded"
+                                            src="./images/patment-icon.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-body p-0">
+                    <ul class="offcanvas-ul p-0">
+                        <li class="mt-2 ms-3 mb-2"><a href="electronic-components.html">Electronic Components</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="robotkit.html">DIY and Learning Robot Kits</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Drone Parts</a></li>
+                        <hr>
+                        <li class="mt-3 ms-3 mb-2"><a href="#">3D Printer And Parts Categories</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-3"><a href="#">Battery Battery Chargers and Accessories</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-3"><a href="#">Development Board</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Motor Driver Actuators</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Displays</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Sensors</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Electronic Module</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Wires and Cables</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Workbench Tools</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">SMPS Power Supply</a></li>
+                        <hr>
+                        <li class="mt-2 ms-3 mb-2"><a href="#">Transformers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#backToTop" class="back-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+
+            var swiper = new Swiper(".mySwiper2", {
+                slidesPerView: 1,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+        </script>
+
+
+
+
+    </body>
+
+</html>
