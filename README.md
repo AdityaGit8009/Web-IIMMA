@@ -1,2 +1,2 @@
 # Web-Robomart
-This is a Clone for Robomart.com
+This is a Clone of Robomart.com
